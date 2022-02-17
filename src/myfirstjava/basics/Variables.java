@@ -250,6 +250,49 @@ public class Variables {
 			break; 
 			}
 			
+			
+			//While Loop
+			
+//			int i = 0;
+//			while  (i < 5) {
+//				System.out.println(i);
+//				i++;
+//			}
+//			
+			//Do While
+			
+//			int i = 0;
+//			do {
+//			
+//				System.out.println(i);
+//				i++;
+//			}
+//			while  (i < 5);
+			
+//			for (int i = 0; i < 5; i++) {
+//				System.out.println(i);
+//				}
+			
+//			for (int i= 0; i<=10; i=i+2) {
+//				System.out.println(i);
+//				}
+			
+//			String[] cars = {"volvo","BMW","Ford","Mazda"};
+//			for (String i : cars) {
+//			System.out.println(i);
+//			}
+			
+			String[] fruit = {"apple","lemon","kiwi","banana"};
+			for (String i : fruit) {
+								System.out.println("the fruit is"+ " " + i);
+			}
+
+			String[] friend = {"Francien","Zelda","Dot","Marion"};
+			for (String i : friend) {if (i == "Dot") {
+								System.out.println("My Best friend is"+ " " + i);}
+			}
+			
+			System.out.println("Hello \n\tAntoinette");
 	}
 
 }
